@@ -16,3 +16,8 @@ num.times do
 		a.assemblies << product
 	end
 end
+
+puts "---------------------- seeds ----------------------"
+puts "All parts are created"
+puts "All assemblies are created"
+puts "---------------------------------------------------"
