@@ -5,3 +5,14 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+num = 10
+
+num.times do 
+	product = Assembly.create(name: Faker::Simpsons.location)
+	
+	4.times do
+		a = Part.create(part_number: "#{Faker::Number.number(10)}")
+		product.parts << a
+		a.assemblies << product
+	end
+end

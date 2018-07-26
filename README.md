@@ -1,24 +1,37 @@
-# README
+# Usine
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+It is a BDD for Usine
 
-Things you may want to cover:
+### Require 
 
-* Ruby version
+* Ruby version 2.5.1
 
-* System dependencies
+* Rails version 5.2.0
 
-* Configuration
+### Installation
 
-* Database creation
+```sh
+$ bundle install
+```
 
-* Database initialization
+### Migrate
 
-* How to run the test suite
+```
+rails db:migrate
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+### Test
 
-* Deployment instructions
+```
+rails db:seed
+```
 
-* ...
+### Team-Programing :
+
+@farida <br/>
+@Nicolas B <br/>
+@Gabrielle Silvano <br/>
+@lise <br/>
+@Matcha <br/>
+@Nico Hermet <br/>
+@Salah <br/>
